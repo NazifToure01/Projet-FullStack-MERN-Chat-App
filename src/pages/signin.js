@@ -15,8 +15,7 @@ export default function SignIn() {
         }
 
     }, [navigate]);
-
-
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         const data = new FormData(e.target);
